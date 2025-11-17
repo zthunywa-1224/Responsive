@@ -51,6 +51,11 @@ col>.card img {
     padding: 20px;
 }
 
+.row .col h1,
+h2 {
+    text-align: center;
+}
+
 .img-fluid {
     width: 100px;
     height: 100px;

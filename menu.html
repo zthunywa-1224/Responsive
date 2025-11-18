@@ -1,64 +1,61 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu</title>
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
         crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    .card-img-fixed {
+      height: 180px;
+      object-fit: cover;
+    }
+  </style>
 </head>
-
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
   <div class="container-fluid">
-    <a class="navbar-brand text-light" href="#">CreateBrand<br>Ntsikelelo Makeleni[Front Web Designer]</a>
-    <button class="navbar-toggler" type="button"
-            data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false"
+    <a class="navbar-brand text-light" href="#">
+      CreateBrand<br>
+      Ntsikelelo Makeleni [Front‑Web Designer]
+    </a>
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
             aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto text-light">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="order.html">Order</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="service.html">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="menu.html">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="faq.html">FAQ</a>
-        </li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+        <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 <div class="container bg-dark my-5">
-
   <!-- Hero -->
   <div class="row mb-4">
     <div class="col">
-      <img src="img/corn-fries.jpg" class=" img-fluid  rounded shadow mt-4" alt="fries image">
+      <img src="img/corn-fries.jpg"
+           class="img-fluid rounded shadow mt-4"
+           alt="fries image">
     </div>
   </div>
 
@@ -70,10 +67,12 @@
 
   <!-- Classic Fries -->
   <h2 class="h3 mb-3">Classic Fries</h2>
-  <div class="row row-cols-sm-6 row-cols-md-6  g-4  mb-5">
+  <div class="row row-cols-sm-1 row-cols-md-2 g-4 mb-5">
     <div class="col text-center">
       <div class="card h-100">
-        <img src="img/decorated-fries.jpeg" class="card-img-top my-3 mx-auto" alt="Crispy Golden fries">
+        <img src="img/decorated-fries.jpeg"
+             class="card-img-top card-img-fixed my-3 mx-auto"
+             alt="Crispy Golden fries">
         <div class="card-body">
           <h3 class="card-title h5">Crispy Golden Fries</h3>
           <p class="card-text">
@@ -83,14 +82,14 @@
         </div>
       </div>
     </div>
-    <div class="col col-sm-6 col-md-6 text-center">
+    <div class="col text-center">
       <div class="card h-100">
-        <img src="img/dish-fries.jpg" class="card-img-top my-3 mx-auto" alt="Seasoned Curly Fries">
+        <img src="img/dish-fries.jpg"
+             class="card-img-top card-img-fixed my-3 mx-auto"
+             alt="Seasoned Curly Fries">
         <div class="card-body">
           <h3 class="card-title h5">Seasoned Curly Fries</h3>
-          <p class="card-text">
-            Spiraled potatoes tossed in our secret spice blend
-          </p>
+          <p class="card-text">Spiraled potatoes tossed in our secret spice blend</p>
           <p class="fw-bold">R 55</p>
         </div>
       </div>
@@ -99,38 +98,52 @@
 
   <!-- Gourmet Fries -->
   <h2 class="h3 mb-3">Gourmet Fries</h2>
-  <div class="row  g-4 mb-5">
-    <div class="col cols-sm-6 row-cols-md-6 text-center ">
+  <div class="row row-cols-sm-1 row-cols-md-2 g-4 mb-5">
+    <div class="col text-center">
       <div class="card h-100">
-        <img src="img/fries-tomato-chips.jpeg" class="card-img-top my-3 mx-auto" alt="Cheese‑Dust Fries">
+        <img src="img/fries-tomato-chips.jpeg"
+             class="card-img-top card-img-fixed my-3 mx-auto"
+             alt="Cheese‑Dust Fries">
         <div class="card-body">
           <h3 class="card-title h5">Cheese‑Dust Fries</h3>
           <p class="card-text">
             Golden fries smothered in melted cheddar cheese.
           </p>
-          <p class="fw-bold">R 70</p>s
+          <p class="fw-bold">R 70</p>
         </div>
       </div>
     </div>
-    <div class="col cols-sm-6 row-cols-md-6 text-center">
+    <div class="col text-center">
       <div class="card h-100">
-        <img src="img/fries-4.jpeg" class="card-img-top my-3 mx-auto" alt="Garlic‑Aioli Fries">
+        <img src="img/fries-4.jpeg"
+             class="card-img-top card-img-fixed my-3 mx-auto"
+             alt="Garlic‑Aioli Fries">
         <div class="card-body">
           <h3 class="card-title h5">Garlic‑Aioli Fries</h3>
           <p class="card-text">
             Crisp fries served with a creamy garlic‑aioli
-            </div>
-            <div class="row mb-5 px-0">
-    <div class="col cols-sm-6 row-cols-md-6">
-        <img src="img/fruit-soda-drinks.jpeg" class="img-fluid rounded-circle me-3" alt="Tropical juice">
-        <p class="text-white fw-bold mb-0">Chill with Tropical Juice</p>
+          </p>
+          <p class="fw-bold">R 65</p>
+        </div>
+      </div>
     </div>
-    <div class="col cols-sm-6 row-cols-md-6 text-center">
-        <img src="img/soda-drinks-1.jpg" class="img-fluid rounded-circle me-3" alt="Summer soda">
-        <p class="text-white fw-bold mb-0">Thirsty summer drinks</p>
-    </div>
-</div>
+  </div>
 
+  <!-- Drinks -->
+  <div class="row mb-5 px-0">
+    <div class="col col-sm-6 text-center">
+      <img src="img/fruit-soda-drinks.jpeg"
+           class="img-fluid rounded-circle me-3"
+           alt="Tropical juice">
+      <p class="text-white fw-bold mb-0">Chill with Tropical Juice</p>
+    </div>
+    <div class="col col-sm-6 text-center">
+      <img src="img/soda-drinks-1.jpg"
+           class="img-fluid rounded-circle me-3"
+           alt="Summer soda">
+      <p class="text-white fw-bold mb-0">Thirsty summer drinks</p>
+    </div>
+  </div>
 
   <ul class="list-group mb-5">
     <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -146,20 +159,22 @@
 
   <!-- CTA -->
   <div class="row">
-    <div class="col cols-sm-6 row-cols-md-6 text-center">
+    <div class="col text-center">
       <a href="order.html" class="btn btn-primary btn-lg">Order Now</a>
     </div>
   </div>
-  <!--Adding link to Home page-->
-<div class="row">
-  <div class="col cols-sm-6 row-cols-md-6 text-center">
-    <a href="index.html" class="btn btn-primary text-white rounded-pill  my-3 mx-3" target="_blank">Home</a>
+
+  <!-- Link back to Home -->
+  <div class="row">
+    <div class="col text-center">
+      <a href="index.html"
+         class="btn btn-primary text-white rounded-pill my-3 mx-3"
+         target="_blank">Home</a>
+    </div>
   </div>
-</div>
 
 </div> <!-- /.container -->
 
-<!-- Footer -->
 <footer class="bg-dark text-white text-center py-3">
   <p>&copy; 2025 CreateBrand – All rights reserved</p>
 </footer>

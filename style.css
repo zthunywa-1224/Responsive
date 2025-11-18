@@ -77,11 +77,13 @@ h2 {
 
 .hero-img {
     width: 200px;
-    height: 200px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     object-fit: cover;
+    border-radius: 50%;
+
 }
 
 h2:hover {

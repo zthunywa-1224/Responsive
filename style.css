@@ -66,15 +66,18 @@ h2 {
 }
 
 .about-img {
-    width: 150px;
+    max-width: 150px;
+    /* tweak to the size you want */
     height: auto;
-    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    /* centers it in the column */
 }
 
-.rounded-circle {
-    width: 100%;
-    height: 0;
-    padding-bottom: 100%;
+
+.hero-img {
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
 

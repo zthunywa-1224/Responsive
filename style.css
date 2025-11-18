@@ -86,6 +86,10 @@ h2 {
 
 }
 
+.rounded-top-img {
+    border-radius: 0.5rem;
+}
+
 h2:hover {
     border-bottom: 2px solid rgba(#ffc400);
 }

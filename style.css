@@ -61,6 +61,10 @@ h2 {
     height: 100px;
 }
 
+.row .col {
+    margin-top: 10px;
+}
+
 .rounded-circle {
     width: 100%;
     height: 0;

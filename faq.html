@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +9,19 @@
         rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
         crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* make the custom chevron white */
+    .accordion-button i {
+      color: #fff;
+    }
+    /* keep the default arrow white if you switch back */
+    .accordion-button::after {
+      filter: invert(1);
+    }
+  </style>
 </head>
 <body>
 
@@ -22,7 +34,7 @@
     <button class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"           
+            data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation">
@@ -63,7 +75,7 @@
       <div id="collapseOne"
            class="accordion-collapse collapse"
            aria-labelledby="headingOne"
-           data-bs-parent="               
+           data-bs-parent="#faqAccordion">
         <div class="accordion-body">
           We’re open daily from <strong>08:00 AM</strong> to <strong>10:00 PM</strong>.
           Last orders are taken at 9:30 PM.
@@ -87,7 +99,7 @@
       <div id="collapseTwo"
            class="accordion-collapse collapse"
            aria-labelledby="headingTwo"
-           data-bs-parent="               
+           data-bs-parent="#faqAccordion">
         <div class="accordion-body">
           Yes! We partner with several local couriers. Delivery fees are calculated at checkout
           and typically arrive within 30‑45 minutes.
@@ -111,7 +123,7 @@
       <div id="collapseThree"
            class="accordion-collapse collapse"
            aria-labelledby="headingThree"
-           data-bs-parent="               
+           data-bs-parent="#faqAccordion">
         <div class="accordion-body">
           Absolutely. When you select a menu item you can add or remove toppings,
           change the dip, or request a different portion size.
@@ -135,7 +147,7 @@
       <div id="collapseFour"
            class="accordion-collapse collapse"
            aria-labelledby="headingFour"
-           data-bs-parent="               
+           data-bs-parent="#faqAccordion">
         <div class="accordion-body">
           We accept cash, all major credit/debit cards, and mobile payments
           (Apple Pay, Google Pay, PayPal).
@@ -159,7 +171,7 @@
       <div id="collapseFive"
            class="accordion-collapse collapse"
            aria-labelledby="headingFive"
-           data-bs-parent="               
+           data-bs-parent="#faqAccordion">
         <div class="accordion-body">
           Yes! Sign up in‑store or via our app to earn a free side after every 5 visits.
         </div>
@@ -181,3 +193,5 @@
         crossorigin="anonymous"></script>
 </body>
 </html>
+
+

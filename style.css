@@ -56,10 +56,13 @@ h2 {
     text-align: center;
 }
 
-.img-fluid {
-    width: 100px;
-    height: 100px;
+.braai-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
+
+
 
 .row .col {
     margin-top: 10px;

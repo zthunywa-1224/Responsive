@@ -10,9 +10,27 @@ body {
     color: white;
 }
 
+.hero-img-wrapper {
+    max-width: 250px;
+    /* whatever size you want on desktop */
+    margin: 0 auto;
+    /* centre it */
+    border-radius: 50%;
+    overflow: hidden;
+    /* keeps the rounded corners */
+}
+
+.corn-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* fills the circle nicely */
+}
+
 .card-img-top {
-    width: 200px;
+    width: 100%;
     height: 200px;
+    object-fit: cover;
     border-radius: 8px;
 }
 
@@ -36,10 +54,7 @@ span {
     color: rgb(11, 11, 11);
 }
 
-.img-fluid {
-    width: 200px;
-    height: 200px;
-}
+
 
 col>.card img {
     text-align: center;
@@ -56,11 +71,6 @@ h2 {
     text-align: center;
 }
 
-.img-fluid {
-    width: 100px;
-    height: 100px;
-
-}
 
 .braai-img {
     width: 100px;

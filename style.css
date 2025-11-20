@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-toggle {
+    color: white;
+}
+
+.hero-img-wrapper {
+    max-width: 250px;
+    height: 250px;
+    /* whatever size you want on desktop */
+    margin: 0 auto;
+    /* centre it */
+    border-radius: 50%;
+    overflow: hidden;
+    /* keeps the rounded corners */
+}
+
+.corn-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* fills the circle nicely */
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.fries-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+
+}
+
+.accordion-body img {
+    max-height: 400px;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+span {
+    text-align: center;
+    color: rgb(11, 11, 11);
+}
+
+
+
+col>.card img {
+    text-align: center;
+    flex-direction: column;
+}
+
+.row>col>a {
+    width: 100px;
+    padding: 20px;
+}
+
+.row .col h1,
+h2 {
+    text-align: center;
+}
+
+
+.braai-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+
+
+
+.about-img {
+    max-width: 150px;
+    /* tweak to the size you want */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* centers it in the column */
+}
+
+
+.hero-img {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.deco-fries-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rounded-top-img {
+    border-radius: 0.5rem;
+}
+
+h2:hover {
+    border-bottom: 2px solid rgba(#ffc400);
+}

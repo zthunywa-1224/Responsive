@@ -1,0 +1,123 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+/* main.css */
+.main-nav {
+    display: flex;
+    /* put the links side‑by‑side */
+    justify-content: center;
+    /* center them horizontally */
+    align-items: center;
+    /* keep vertical alignment tidy */
+    background: #988f8f;
+    /* dark background – you can change it */
+    margin: 0.2rem;
+    padding: 0.75rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* each link */
+.main-nav a {
+    color: #100f0f;
+    /* dark text */
+    text-decoration: none;
+    /* no underline */
+    padding: 0.5rem 1rem;
+    /* breathing room */
+    margin: 0 0.5rem;
+    /* space between items */
+    border-radius: 4px;
+    /* subtle rounding */
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+/* Target the <ul> with the class */
+ul {
+    list-style-type: none;
+    /* removes the bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* makes the items line up horizontally */
+    gap: 1rem;
+    /* space between items */
+}
+
+/* Style each <li> inside that list */
+li {
+    /* you can add padding, background, etc. here */
+    padding: 0.5rem;
+
+}
+
+/* If you want the links inside the <li> to look like buttons */
+.main-nav ul li a {
+    text-decoration: none;
+    color: #faf5f5;
+    background-color: lightgreen;
+    padding: 0.5rem 1rem;
+    border-radius: 18px;
+    transition: background 0.2s ease;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.btn {
+    background-color: lightgreen;
+    padding: 1rem 2rem;
+    margin: 0.5rem 1rem;
+    border: none;
+}
+
+.cta {
+    padding: 20px;
+    margin-top: 10px;
+    width: 20%;
+}
+
+ul li a:hover {
+    background: #555;
+}
+
+
+/* hover & focus states */
+.main-nav a:hover,
+.main-nav a:focus {
+    background: #555;
+    /* slightly lighter bg on hover */
+    transform: translateY(-2px);
+    /* tiny lift effect */
+    outline: none;
+}
+
+/* active page indicator (optional) */
+.main-nav a[aria-current="page"],
+.main-nav a.active {
+    background: #007bff;
+    /* accent color for the current page */
+}
+
+/* responsive tweak – stack the links on very narrow screens */
+@media (max-width: 480px) {
+    .main-nav {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .main-nav a {
+        margin: 0.25rem 0;
+        width: 100%;
+        text-align: center;
+    }
+}

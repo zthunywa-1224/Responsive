@@ -68,9 +68,38 @@ li {
 }
 
 .profile-img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 
+}
+
+.coffee-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+span {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.carousel-item img {
+    max-height: 400px;
+    /* or whatever height you want */
+    width: auto;
+    margin: 0 auto;
+    /* center the image */
+    object-fit: cover;
+    /* keep the whole picture visible */
+}
+
+.container .row.column-wrapper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .btn {

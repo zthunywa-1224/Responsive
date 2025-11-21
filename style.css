@@ -10,6 +10,12 @@ body {
     color: white;
 }
 
+.anchor-link {
+    background-color: lightgreen;
+    color: white;
+    border-radius: 8px;
+}
+
 .hero-img-wrapper {
     max-width: 250px;
     height: 250px;

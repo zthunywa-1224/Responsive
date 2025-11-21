@@ -102,6 +102,12 @@ span {
     margin-left: auto;
 }
 
+.trolley-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
 .btn {
     background-color: lightgreen;
     padding: 1rem 2rem;

@@ -10,11 +10,14 @@ body {
     color: white;
 }
 
-.anchor-link {
+.main-nav ul li a {
     background-color: lightgreen;
-    color: white;
     border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
 }
+
+
 
 .hero-img-wrapper {
     max-width: 250px;
@@ -61,6 +64,9 @@ span {
     color: rgb(11, 11, 11);
 }
 
+.row .col img {
+    list-style-type: none;
+}
 
 .custom-size {
     width: 200px;
@@ -72,10 +78,7 @@ col>.card img {
     flex-direction: column;
 }
 
-.row>col>a {
-    width: 100px;
-    padding: 20px;
-}
+
 
 .row .col h1,
 h2 {

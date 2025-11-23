@@ -35,6 +35,12 @@ body {
     border-radius: 8px;
 }
 
+.row .col a .cta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .fries-image {
     width: 100px;
     height: 100px;

@@ -17,7 +17,9 @@ body {
     color: inherit;
 }
 
-
+.text-shadow-custom {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
 
 .hero-img-wrapper {
     max-width: 250px;
